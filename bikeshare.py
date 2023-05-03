@@ -81,7 +81,7 @@ def getDayOfWeek():
 
     while valid_choice != True:
         try:
-            choice = input("\nEnter the corresponding number for the day of the week:\n").title()
+            choice = input("\nEnter the day of the week:\n").title()
             if choice in days_of_week:
                 valid_choice = True
                 print(f'You chose {choice}.')
@@ -370,8 +370,8 @@ def main():
             user_stats(df)
             getRawData(df)
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? (Y/N)\n')
+        if restart.lower() != 'y':
             break
 
 
