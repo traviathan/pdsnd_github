@@ -81,7 +81,7 @@ def getDayOfWeek():
 
     while valid_choice != True:
         try:
-            choice = input("\nEnter the corresponding number for the day of the week:\n").title()
+            choice = input("\nEnter the day of the week:\n").title()
             if choice in days_of_week:
                 valid_choice = True
                 print(f'You chose {choice}.')
