@@ -15,3 +15,7 @@ Required Files Not Provided In Repository:
 - washington.csv
 
 **Note**: _bikeshare.py will fail if the required csv files are not contained in the same directory as bikeshare.py._
+---
+Credits
+-------
+Thanks Udacity Staff!
